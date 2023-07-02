@@ -7,5 +7,7 @@ class GraphNode:
         if self.node in visited: 
             return
         
+        print(node.val)
+        
         for n in self.neighbors:
-            return
+            self.dfs(n,visited)

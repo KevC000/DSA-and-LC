@@ -12,7 +12,7 @@ class Solution:
             vals.add(num)
         return False
 # Use a set to record elements that have already been visited.
-# If it already exists we have duplicates as it already exists.
+# If it already exists we have duplicates
 # Otherwise we keep iterating and adding elements to the set until we find a duplicate or visited the entire array, in which case return False.
 # Time: O(N) We may have to viist entire array
 # Space: O(N) We may have to add the entire array to the set.

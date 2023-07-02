@@ -15,6 +15,7 @@ class KthLargest:
             heapq.heappop(self.minHeap)
         return self.minHeap[0]
 
+
 # Use heap to sort the elements
 # Pop until len of the heap is k and theese are you kth largest elements.
 # Add: push to heap and keep popping until the length of heap is k.

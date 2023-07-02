@@ -17,7 +17,7 @@ class Solution:
                 if len(res) == k:
                     return res
             
-
+# O(N) Time O(N) Space
 # Keep track of frequency using a dictionary.
 # Order the value based on frequency which is represented as the index in a list.
 # Iterate throught the that list and append the the values to the resulting list starting from the last index until the resultinglist is length k.

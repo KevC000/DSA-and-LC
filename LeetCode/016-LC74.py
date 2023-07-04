@@ -44,4 +44,4 @@ class Solution:
 # I knew it was a binary search problembecause of the tag on NC150, but wasn't sure how it could be applied to a matrix, so I thought of alternatives.
 # First I thought of using two pointers twice instead of binary serch but I realized it would be N+M time.
 # Then I realized I could split the matrix in two halves by rows then by columns and perform bianry search twice.
-# Conceptually I understodd by coding it up was a bit tricky for me but I did it :).
+# Conceptually I understood but coding it up was a bit tricky for me but I did it :).

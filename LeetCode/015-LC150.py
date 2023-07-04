@@ -26,3 +26,8 @@ class Solution:
 # Iterate through the tokens, if it is an operator we perform the operations on the top 2 items in the stack and append the result.
 # We append the result in order to perform future operations to it.
 # If we have a number we append that to the stack to be used later.
+
+# Self-Analysis:
+# Understanding the problem was the hard part, but once I understood it I thought of the solution pretty quickly, but a few details was tricky.
+# I forgot to convert the token to an int when it is a number rather than an operator.
+# I also wasn't sure which to subtract/divide between a or b (a, b = stack.pop(), stack.pop())

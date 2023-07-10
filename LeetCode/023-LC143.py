@@ -1,7 +1,16 @@
 #Reorder List
 
+from tkinter.tix import ListNoteBook
+from typing import Optional
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
 class Solution:
-    def reorderList(self, head: Optional[ListNode]) -> None:
+    def reorderList(self, head: Optional[ListNoteBook]) -> None:
         def findMiddle(head):
             slow, fast = head, head
             while fast and fast.next:

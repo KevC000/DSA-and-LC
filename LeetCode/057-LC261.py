@@ -15,9 +15,8 @@ class Solution:
             parentU = find(u)
             parentV = find(v)
             if parentU == parentV:
-                # If u and v are already in the same set, adding this edge forms a cycle.
                 return False
-            parent[parentU] = parentV  # Otherwise, unite u and v.
+            parent[parentU] = parentV  
 
         return True
 # Time: O(N) Space: O(N)

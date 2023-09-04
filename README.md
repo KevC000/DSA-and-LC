@@ -1,6 +1,6 @@
 # LeetCode-Problems
 ### (Discontinued)
-### Still Leetcoding just not recording
+### Still Leetcoding; just not recording
 https://leetcode.com/yuunagi7/
 
 
